@@ -66,4 +66,4 @@ jobs:
         uses: actions/add-to-project@v1.0.2
         with:
           project-url: "https://github.com/users/joyewon0705/projects/1"
-          github_token: ${{ secrets.PROJECT_ACCESS_TOKEN }}
+          github-token: ${{ secrets.PROJECT_ACCESS_TOKEN }}
