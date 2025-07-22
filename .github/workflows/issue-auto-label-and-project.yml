@@ -65,7 +65,5 @@ jobs:
       - name: 이슈를 프로젝트의 Backlog 컬럼에 추가
         uses: actions/add-to-project@v1.0.2
         with:
+          project-url: "https://github.com/users/joyewon0705/projects/1"
           github_token: ${{ secrets.PROJECT_ACCESS_TOKEN }}
-          project_owner: joyewon0705
-          project_number: 1
-          target_column: "Backlog"
